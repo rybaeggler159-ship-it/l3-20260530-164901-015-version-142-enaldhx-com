@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>关于我们-热门电影榜单</title>
+  <meta name="description" content="热门电影榜单关注热门影片、高分电影和精选影视内容，提供清晰分类与榜单入口。">
+  <meta name="keywords" content="热门电影榜单,高分电影,电影排行榜,精选内容,热门影片,口碑电影,电影排行,关于我们">
+  <link rel="stylesheet" href="./assets/style.css">
+  <script src="./assets/app.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="./index.html" aria-label="热门电影榜单">
+      <span class="brand-mark">▶</span>
+      <span class="brand-text">热门电影榜单</span>
+    </a>
+    <nav class="main-nav" aria-label="主导航">
+      <a href="./index.html">首页</a>
+      <div class="nav-dropdown">
+        <a href="./categories.html">分类</a>
+        <div class="dropdown-panel">
+            <a href="./category-hot-picks.html">热门推荐</a>
+            <a href="./category-high-score.html">高分口碑</a>
+            <a href="./category-action-suspense.html">动作悬疑</a>
+            <a href="./category-drama-romance.html">剧情爱情</a>
+            <a href="./category-comedy-healing.html">喜剧治愈</a>
+            <a href="./category-sci-fi-fantasy.html">科幻奇幻</a>
+            <a href="./category-asian-choice.html">亚洲精选</a>
+            <a href="./category-global-cinema.html">环球佳作</a>
+        </div>
+      </div>
+      <a href="./ranking.html">排行榜</a>
+      <a href="./search.html">搜索</a>
+      <a href="./about.html">关于我们</a>
+      <a href="./help.html">帮助中心</a>
+    </nav>
+    <form class="header-search" action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片..." aria-label="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="menu-toggle" type="button" aria-label="打开菜单" aria-expanded="false">☰</button>
+  </div>
+  <div class="mobile-panel" hidden>
+    <form class="mobile-search" action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片..." aria-label="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+    <nav class="mobile-nav" aria-label="移动导航">
+      <a href="./index.html">首页</a>
+      <a href="./categories.html">分类</a>
+      <a href="./ranking.html">排行榜</a>
+      <a href="./search.html">搜索</a>
+      <a href="./about.html">关于我们</a>
+      <a href="./help.html">帮助中心</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="page-hero simple-hero">
+    <span class="hero-kicker">关于我们</span>
+    <h1>热门电影榜单</h1>
+    <p>热门电影榜单整理近期高关注度影片，按热度和口碑呈现内容。</p>
+  </section>
+  <section class="content-section prose-section">
+    <h2>品牌简介</h2>
+    <p>热门电影榜单围绕热门影片、口碑电影和精选剧集进行内容整理，让用户通过首页推荐、分类片单和排行榜快速找到适合观看的作品。</p>
+    <h2>内容方向</h2>
+    <p>页面覆盖动作、悬疑、剧情、爱情、喜剧、科幻、奇幻、家庭、历史等多种类型，并以清晰的详情页展示影片简介、点评、标签与相关推荐。</p>
+    <h2>观影体验</h2>
+    <p>全站采用统一的导航、搜索、筛选、卡片和播放器布局，兼顾桌面端与移动端访问体验。</p>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <section class="footer-block">
+      <h2>热门电影榜单</h2>
+      <p>热门电影榜单整理近期高关注度影片，按热度和口碑呈现内容。</p>
+    </section>
+    <section class="footer-block">
+      <h2>精选分类</h2>
+      <ul>
+          <li><a href="./category-hot-picks.html">热门推荐</a></li>
+          <li><a href="./category-high-score.html">高分口碑</a></li>
+          <li><a href="./category-action-suspense.html">动作悬疑</a></li>
+          <li><a href="./category-drama-romance.html">剧情爱情</a></li>
+          <li><a href="./category-comedy-healing.html">喜剧治愈</a></li>
+          <li><a href="./category-sci-fi-fantasy.html">科幻奇幻</a></li>
+      </ul>
+    </section>
+    <section class="footer-block">
+      <h2>观影入口</h2>
+      <ul>
+        <li><a href="./ranking.html">高分电影排行榜</a></li>
+        <li><a href="./search.html">影片搜索</a></li>
+        <li><a href="./categories.html">分类总览</a></li>
+      </ul>
+    </section>
+  </div>
+  <div class="footer-bottom">© 2026 热门电影榜单. 保留所有权利.</div>
+</footer>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
